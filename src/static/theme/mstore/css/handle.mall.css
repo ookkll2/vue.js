@@ -1,0 +1,29 @@
+.tcm, .tcm a { color: #5c77fc !important; }
+
+.tcb, .tcb a { color: #000 !important; }
+
+a.tdn { text-decoration: none; }
+a:hover { color: #5c77fc !important; }
+
+.nav-link-inline.nav-link-light {
+	color: #666;
+}
+
+.sb-light {
+	color: #666;
+}
+
+.product-card-title>a:hover { text-decoration: none; }
+
+@media (max-width: 480px) {
+	.navbar-brand>img {
+		width: 130px;
+	}
+}
+
+@media (min-width: 768px) {
+	.product-card:hover .product-thumb, .product-card:hover .product-card-body {
+	    -webkit-transition-delay: 0s;
+	    transition-delay: 0s;
+	}
+}
